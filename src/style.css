@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+    text-align: center
+    
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.search{
+    width: 300px;
+}
+
+.result-container{
+    width: 300px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 2px;
+    text-align: left;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.result{
+    display: block;
+    padding: 5px;
+}
+
+.result:hover {
+    cursor: pointer;
+    background-color: grey;
+}
